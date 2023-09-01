@@ -4,21 +4,24 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    // typescript,
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    // docker,
+    // meta,
+    // tesla,
+    // starbucks,
+    // shopify,
+    philiance,
+    intergate,
+    bh,
     carrent,
     jobit,
     tripguide,
@@ -28,11 +31,11 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "À propos",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Expériences",
     },
     {
       id: "contact",
@@ -42,19 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Passion",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Innovation",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Challenge",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Reconversion",
       icon: creator,
     },
   ];
@@ -72,18 +75,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -108,65 +111,64 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Développeur web & mobile",
+      company_name: "Philliance (Formation)",
+      icon: philiance,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Septembre 2021 - Avril 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développer et maintenir un site e-commerce en utilisant Symfony 5.",
+        "Collaborer avec d'autres développeurs ayant des compétences complémentaires pour développer dans les meilleurs pratiques",
+        "Mettre en œuvre un design responsive et assurer la compatibilité entre les navigateurs.",
+        "Participer à des revues de code et fournir des commentaires constructifs avec le développeur sénior.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Développeur web Laravel",
+      company_name: "Intergate Logistique",
+      icon: intergate,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Février 2022 - Avril 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Développer et maintenir une application interne en utilisant Laravel.",
+        "Collaborer avec des commerciaux pour développer des fonctionnalités qui répondent aux besoins des utilisateurs.",
+        "Communication avec le développeur sénior et le chef de projet pour assurer la qualité du code et des fonctionnalités.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Développeur Web",
+      company_name: "BH Compétences (Alternance)",
+      icon: bh,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Septembre 2022 - Actuellement",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Concevoir et gérer des applications web en exploitant Wordpress ainsi que d'autres technologies associées.",
+        "Travailler en synergie avec l'équipe de marketing digital pour optimiser les workflows grâce à des solutions en Python et Node.js, notamment le WebScrapping.",
+        "Créer des outils innovants pour simplifier la planification des rendez-vous commerciaux en intégrant une API",
+        "Engager des dialogues constructifs avec les managers et les équipes commerciales afin d'enrichir et d'affiner les fonctionnalités de nos applications web.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
