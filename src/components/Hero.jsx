@@ -29,12 +29,12 @@ const Hero = () => {
           Hi, I'm &nbsp;
             <span className='text-[#915eff]'> 
               <Typewriter 
-                words={['Guillaume', 'Développeur', 'Gamer', 'Passionné']}
+                words={['Guillaume ', 'Développeur ', 'Gamer ', 'Geek ', 'Guillaume ']}
                 loop={5}
                 cursor
                 cursorStyle='|'
                 cursorColor='white'
-                typeSpeed={70}
+                typeSpeed={100}
                 deleteSpeed={50}
                 delaySpeed={1000}
                 onDelete
