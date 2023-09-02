@@ -3,7 +3,11 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
+import { Typewriter } from 'react-simple-typewriter'
+
+
 const Hero = () => {
+
   return (
    <section className='relative w-full h-screen mx-auto'> 
     <div className={`
@@ -21,7 +25,23 @@ const Hero = () => {
       </div>
 
       <div>
-        <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'> Guillaume </span></h1>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+          Hi, I'm &nbsp;
+            <span className='text-[#915eff]'> 
+              <Typewriter 
+                words={['Guillaume', 'Développeur', 'Gamer', 'Passionné']}
+                loop={5}
+                cursor
+                cursorStyle='|'
+                cursorColor='white'
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                onDelete
+                onDelay
+              /> 
+            </span>
+        </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           Je crée des sites web, des interfaces utilisateur <br className='sm:block hidden' /> et des applications web.
         </p>
@@ -42,7 +62,7 @@ const Hero = () => {
             transition={{
               duration: 1.5,
               repeat: Infinity,
-              repearType: 'loop'
+              repeatType: 'loop'
             }}
             className='w-3 h-3 rounded-full bg-secondary mb-1'
           />
