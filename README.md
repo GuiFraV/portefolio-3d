@@ -1,8 +1,30 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎨 **Portefolio 3D**
+---
 
-Currently, two official plugins are available:
+🚀 **Introduction**  
+A travers ce portefolio, j'ai voulu offrir une expérience utilisateur unique. En combinant React et Three.js, j'ai créé une interface en 3D qui met en avant mes projets de manière interactive et captivante.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+🔍 **Pourquoi ce portefolio ?**  
+Ce portfolio est bien plus qu'une simple vitrine de mes compétences. C'est ma carte de visite numérique. En le parcourant, vous découvrirez non seulement ce que je sais faire, mais aussi ma passion pour le design et le développement web.
+
+---
+
+🛠 **Technologies utilisées**  
+- React
+- Three.js
+- Vite
+
+---
+
+N'hésitez pas à parcourir, explorer et me donner vos retours !
+
+---
+
+
+
+
+
