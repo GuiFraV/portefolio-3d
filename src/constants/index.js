@@ -23,6 +23,7 @@ import {
     intergate,
     bh,
     carrent,
+    pizza,
     jobit,
     tripguide,
     threejs,
@@ -200,25 +201,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pizza Menu",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Menu d'une pizzeria qui permet aux utilisateurs de consulter, choisir et commander des pizzas de différents types, offrant une solution pratique et efficace pour satisfaire leurs envies culinaires.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "mongodb",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "tailwind",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pizza,
+      source_code_link: "https://github.com/GuiFraV/03-pizza-menu",
     },
     {
       name: "Job IT",

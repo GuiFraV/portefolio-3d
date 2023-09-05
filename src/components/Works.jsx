@@ -81,7 +81,7 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
         >
           Les projets suivants mettent en valeur mes compétences et mon expérience à travers
-          exemples concrets de mon travail. Chaque projet est brièvement décrit avec des
+          des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des
           liens vers des dépôts de code et des démonstrations en direct. Il reflète ma
           capacité à résoudre des problèmes complexes, à travailler avec différentes technologies,
           et à gérer des projets de manière <span className='text-white font-bold'>efficace</span>.

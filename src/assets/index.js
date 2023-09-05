@@ -32,6 +32,7 @@ import bh from "./company/bh.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pizza from "./pizza.png";
 
 export {
   logo,
@@ -63,6 +64,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  pizza,
   jobit,
   tripguide,
 };
