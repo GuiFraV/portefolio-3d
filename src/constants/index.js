@@ -22,9 +22,10 @@ import {
     philiance,
     intergate,
     bh,
-    carrent,
+    // carrent,
     pizza,
-    jobit,
+    // jobit,
+    tshirt,
     tripguide,
     threejs,
   } from "../assets";
@@ -222,25 +223,25 @@ import {
       source_code_link: "https://github.com/GuiFraV/03-pizza-menu",
     },
     {
-      name: "Job IT",
+      name: "T-Shirt Shop 3D",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Application web permettant aux utilisateurs de visualiser un T-shirt en 3D, de le faire pivoter, de changer sa couleur et d'ajouter leur propre logo grâce à Three.js et React.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Three.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: tshirt,
+      source_code_link: "https://github.com/GuiFraV/TshirtThreeJS",
     },
     {
       name: "Trip Guide",

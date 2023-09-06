@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pizza from "./pizza.png";
+import tshirt from "./tshirt.png";
 
 export {
   logo,
@@ -65,6 +66,7 @@ export {
   tesla,
   carrent,
   pizza,
+  tshirt,
   jobit,
   tripguide,
 };
