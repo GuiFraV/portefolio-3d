@@ -3,9 +3,6 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
-import { Typewriter } from 'react-simple-typewriter'
-
-
 const Hero = () => {
 
   return (
@@ -28,18 +25,7 @@ const Hero = () => {
         <h1 className={`${styles.heroHeadText} text-white`}>
           Hi, I'm &nbsp;
             <span className='text-[#915eff]'> 
-              <Typewriter 
-                words={['Guillaume ', 'Développeur ', 'Gamer ', 'Geek ', 'Guillaume ']}
-                loop={5}
-                cursor
-                cursorStyle='|'
-                cursorColor='white'
-                typeSpeed={100}
-                deleteSpeed={50}
-                delaySpeed={1000}
-                onDelete
-                onDelay
-              /> 
+                Guillaume
             </span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
