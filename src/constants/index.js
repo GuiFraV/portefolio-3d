@@ -26,8 +26,9 @@ import {
     pizza,
     // jobit,
     tshirt,
-    tripguide,
+    // tripguide,
     threejs,
+    tchat,
   } from "../assets";
   
   export const navLinks = [
@@ -232,8 +233,8 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Three.js",
-          color: "green-text-gradient",
+          name: "three.js",
+          color: "red-text-gradient",
         },
         {
           name: "tailwind",
@@ -243,27 +244,27 @@ import {
       image: tshirt,
       source_code_link: "https://github.com/GuiFraV/TshirtThreeJS",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Tchat Room",
+      description:
+        "🌟 Initiative d'un projet open-source : chaque ligne de code est accessible, compréhensible et modifiable pour favoriser la collaboration, l'apprentissage et l'innovation.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: tchat,
+      source_code_link: "https://github.com/GuiFraV/chat-appJS",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pizza from "./pizza.png";
 import tshirt from "./tshirt.png";
+import tchat from "./tchat.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   tshirt,
   jobit,
   tripguide,
+  tchat,
 };
